@@ -22,7 +22,7 @@ this.router.navigate(['/login']);
 }
 
 logout()
-{
+{ 
   this.auth.logout();
 }
 
