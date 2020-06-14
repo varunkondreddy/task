@@ -35,11 +35,7 @@
       </div>
     
       <div class="col-12">
-        <div class="row" *ngIf="authError">
-          <div class="col-12 alert alert-danger">
-            {{ authError?.message }}
-          </div>
-        </div>
+
         <form #userRegForm="ngForm" (ngSubmit)="createUser(userRegForm)">
           <div class="row">
             <div class="col-md-6 mb-2">
