@@ -23,7 +23,7 @@ this.router.navigate(['/login']);
 
 logout()
 { 
-  this.auth.logout();
+  this.auth.logout(); 
 }
 
 register()
